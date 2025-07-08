@@ -42,34 +42,3 @@ if( ! function_exists( 'request' ))
 		return Request::getInstance();
 	}
 }
-
-if( ! function_exists( 'dd' ))
-{
-	/**
-	 * Dumps the given variables and ends the execution of the script.
-	 *
-	 * This function is a shortcut for var_dump() and exit.
-	 *
-	 * @param mixed ...$args The variables to dump.
-	 */
-	function dd( ...$args )
-	{
-		var_dump( ...$args );
-		exit;
-	}
-}
-
-if( ! function_exists( 'dump' ))
-{
-	/**
-	 * Dumps the given variables.
-	 *
-	 * This function is a shortcut for var_dump().
-	 *
-	 * @param mixed ...$args The variables to dump.
-	 */
-	function dump( ...$args )
-	{
-		var_dump( ...$args );
-	}
-}
