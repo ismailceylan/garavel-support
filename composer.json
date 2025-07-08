@@ -2,8 +2,7 @@
   "name": "garavel/support",
   "description": "The support module for the Garavel framework",
   "require": {
-    "php": "^7.4 || ^8.0",
-    "garavel/support": "^1.0"
+    "php": "^7.4 || ^8.0"
   },
   "autoload": {
     "psr-4": {
